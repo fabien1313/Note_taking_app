@@ -29,7 +29,7 @@ app.get('/api/notes', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
     let notes = JSON.parse(fs.readFileSync(path.join(__dirname, '/db/db.json'), 'utf8'));
-    let addNote = { id: uuid.v4(), ...req.body };
+    let addNote = { id: uuid.v4(), ...req.body }; //assigning random ID.
     notes.push(addNote);
     fs.writeFileSync(path.join(__dirname, '/db/db.json'), JSON.stringify(notes));
     res.json(addNote);
