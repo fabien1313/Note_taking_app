@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"id":"064d291e-75d6-485a-914b-f64b62e9ede8","title":"Test","text":"Lets see if this works\n"},{"id":"8cce913a-9034-491b-9014-9c8277c601d8","title":"TryItOnceMore","text":"Is it producing new ID's"},{"id":"b9dc30a8-beeb-4241-b4dc-e01aa8600200","title":"Yay","text":"I think it works"},{"id":"b8da8635-5688-470f-a2f7-e4a469ed5ca9","title":"Milk","text":"Good thing im not lactose!"}]
