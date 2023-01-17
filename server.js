@@ -1,13 +1,13 @@
-const express = require('express');
-const path = require('path');
-const fs = require('fs');
-const uuid = require('uuid');
-const nodemon = require('nodemon');
+const express = require('express'); //Express
+const path = require('path'); //Routes built in from express
+const fs = require('fs'); //File System
+const uuid = require('uuid'); //Recommended for creating Unique ID's
+const nodemon = require('nodemon'); //constantly updates the server.
 
-const app = express();
+const app = express(); //invoking express
 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001; //Learned from Mosh.
 
 
 
