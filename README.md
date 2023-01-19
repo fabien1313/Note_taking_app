@@ -35,35 +35,30 @@ THEN I am presented with empty fields to enter a new note title and the note’s
   - [Usage](#usage)
   - [Technologies](#technologies)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   - [License](#license)
   <hr>
 
   ## Installation
-  To run this program you will need to first download Node.js. Once, you have done that you will need to also run (npm i inquirer@8.2.4) which will provide the user with the node_modules as well as the jest_tests. You can begin to utilize the program then by entering (node index.js) which will run the program and start the prompts. Upon, completing the prompts you will have an HTML file created and rendered in the dist directory. Here you can run live server by right clicking on the file or open it as a normal browser to view your team.
+  No installation required for this program. You can visit the Heroku deployed link to begin using this note taking application.
   <hr>
 
   ## Usage
   Heroku link: https://fabien1313-noteapp.herokuapp.com/notes 
 
-  This program assists those needing to build a team electronically. It has a hierarchy built into it for organization purposes. The manager will appear at the top followed by the engineers and interns. This can be a powerful tool for companies with multiple teams. You can view who is in charge of what teams, the engineers and interns allocated to that specific team, and all of the information regarding their specified roles. This will assist employers and leadership in saving time as well as organization for implementing tasks and development of projects.
+  This program provides the ability for a user to take notes, save notes, and delete notes. This can help you keep track of important tasks and reminders throughout the day.
   <hr>
 
   ## Technologies
  - JavaScript
  - Node.js
- - Inquirer
+ - Express.js
  - HTML
  - CSS
  <hr>
 
  ## Contributing
  - GitHub: fabien1313
- <hr>
- 
- ## Tests
- There are a total of four files that can be tested. Across these four files there are a total of 34 tests. Following the installation guide above you can run (npm run test) within the program and verify that all 4 test suites pass as well as the 34 tests that are built into all the suites. This will ensure that the program is ready and accurately running at full performance.
  <hr>
 
  ## Questions
